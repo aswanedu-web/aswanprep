@@ -42,7 +42,7 @@ st.divider()
 # رسم: عدد الطلاب حسب الإدارة
 # -----------------------------
 st.subheader("📈 مقارنة الإدارات حسب عدد الطلاب")
-st.pyplot(fig)
+
 plt.bar(df_view["الإدارة"], df_view["عدد الطلاب"])
 plt.title("عدد الطلاب")
 st.pyplot(plt)
