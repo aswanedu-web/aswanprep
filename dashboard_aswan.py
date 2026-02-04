@@ -1,6 +1,6 @@
 import streamlit as st
 import pandas as pd
-st.pyplot(plt)
+import matplotlib.pyplot as plt
 # -----------------------------
 # بيانات الإدارات التعليمية
 # -----------------------------
